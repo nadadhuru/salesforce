@@ -1,0 +1,12 @@
+Random Development Questions:
+
+What is the complex functionality you developed? and Why its complex?
+
+
+What are the challenges you faced during your most recent project?
+
+
+How did you manage when you were given less time to develop a functionality?
+
+
+How did you manage issues/problems that are encountered in production?
