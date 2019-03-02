@@ -1,0 +1,42 @@
+Agile Approach:
+
+
+	We do follow Agile Methodology in our project and we use both Kanban and Scrum in our projects depends on need.
+	
+	At high level - we have Program Increment (PI), which starts with Planning. During this - we will gather with other teams and discuss the Features that we all want to develop that could help our customer. We do this by writting Features, its dependencies, Complexity (hours) & Priority (business value) and provide Feature Points.
+	
+	Once the Features are finalized for the PI, we would get together as a Team and participate in Sprint planning meeting. During this we start writting Stories, identifying its dependencies, Complexity (hours) & Priority (business value) and provide story Points.
+	
+	Also we will identify what Stories we want to work on based on priorities and dependencies for each Sprint.
+	
+	Once the stories are identified we will start with Design, Development activities and we will start creating tasks to track the progress of various stories.
+	
+	We will be joining on a daily stand up which will last for about 10 to 15 minutes at the maximum, to talk about
+	
+		What we did yesterday
+		What we are planning to do today
+		Any roadblocks in achieveing the planning
+		What are my tasks for tomorrow
+	
+	After each sprint - we have a sprint demo with our Stakeholders. We will be presenting the stories we developed during the sprint and create new stories in backlog based on feedback.
+	
+	In case we need to do few changes, we will be doing them within sprint as long as time permits.
+	
+	As we complete 3 sprints, we will have a PI interm demo, where all teams would be presenting the progress of feature and create additional features, stories into their backlog.
+
+	We call this as Inspect, Adapt, ??
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
