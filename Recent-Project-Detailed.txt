@@ -1,0 +1,35 @@
+Can you tell me about your recent project in detail?
+
+	Sure - My current project is "XYZ". This project is targeted to implement, following changes/functionality to our existing application as our client was facing several issues like "X", "Y", "Z" with their current system and looking for a promising solution that would benefit their customers and relive them from a long technical debt (From Classic to Lighting):
+	
+		- A
+		- B
+		- C
+		- D
+		- E
+	
+	In this project we have a team of "6", and my role is - "" and I am responsible for:
+	
+		- Interacting with Architect and BA's to gather business/technical requirements
+		- Evaluating feasibility of requirements and adding Stories to Backlog by participating in Backlog grooming session
+		- Participated Sprint planning, Sprint Demos to identify the scope of sprint and to ensure successful completion of same
+		- Working with Scrum Master (Lead) and other teams on daily basis to report status and to address any road-blocks
+		- Developed functionality for the stories identified using salesforce technical components like -
+			Apex Classes
+			Batch Class
+			Triggers
+			Visualforce Pages
+			Lighing Componenets
+			Standard/Custom Fields
+			Dashboard and Reports
+			Process Builder
+			Configuring application Security
+		- Participated in Code Reviews to ensure code is line with enterprise standards & according to salesforce best practices
+		- Performed Unit/Integration tests for the stories in scope using techniques like - "X", "Y", "Z"
+		- Worked hand in hand with Test teams on defects raised to provide a more suitable & optimized fix/solution
+		- Troubleshooting the application issues
+		- Working with Salesforce admin on the admin related tasks/dependencies
+		- Performed deployments to Production environment
+		- Monitored and provided initial Prodcution support after delivering product
+	
+	
