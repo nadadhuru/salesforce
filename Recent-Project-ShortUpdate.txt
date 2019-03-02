@@ -1,0 +1,19 @@
+Can you tell me about your recent project?
+
+	Sure - My current project is "XYZ". This project is targeted to implement, following changes/functionality to our existing application as our client was facing several issues like "X", "Y", "Z" with their current system and looking for a promising solution that would benefit their customers and relive them from a long technical debt (From Classic to Lighting):
+	
+		- A
+		- B
+		- C
+		- D
+		- E
+	
+	In this project my role is - "" and I am responsible for:
+	
+		- A
+		- B
+		- C
+		- D
+		- E
+	
+	
