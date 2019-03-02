@@ -1,0 +1,18 @@
+Solution Based Questions:
+
+	You will be given a scenario and would be tested to provide a solution or approach on how you would resolve or fix the situation:
+	
+	Problem:
+	
+	
+	
+	
+	Solution:
+	
+	1st come up with a general approach
+	2nd come up with various other options available
+	3rd - recommend your approach/idea suitable for this problem
+	4th - Justify the approach on Why you think this is better than others like time, code-flexibility, code-optimization, cost, stability, complexity.
+		
+		
+		

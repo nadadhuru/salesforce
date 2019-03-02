@@ -1,0 +1,16 @@
+Scenario Based Questions:
+
+	You will be asked to validate your experience by asking you to explain the recent development you did and your approach to implement it:
+	
+	Feature/Functionality:
+		- Define 2 or 3 functionalities that you worked
+		- List your approach to develop each functionality, like tehnical feasibility, depedencies etc.
+		- Talk more about steps you followed to develop each functionality
+		- Add any issues/problems you faced while developing the functionality
+		- Tell about how you resolved or overcome the issues/problems	
+	
+	Solution:
+	
+		
+		
+		

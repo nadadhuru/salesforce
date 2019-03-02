@@ -1,0 +1,7 @@
+Technical Questions:
+
+		You will be tested on:
+			Concepts like Apex Class, Batch Class etc.
+			Differences b/w concepts & feasible solution when it comes to implementing a functionality
+			Syntax
+			Limitations
