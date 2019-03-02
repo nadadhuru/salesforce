@@ -9,3 +9,26 @@ I am a certfied Salesforce developer and my core skills include but not limited 
 I am currently employed with - "XYZ Systems" as a "Salesforce Developer" and working for one of our client - "TFC Bank".
 
 While I like my current job, I am really excited about this opportunity as I am looking to be part of a big organization and their achievements, where i can use my skills and improve myself provided opportunity.
+=======================================================================================================================================
+
+Start:
+My Name is - Pavan N. I have about 12 years of experience in IT. My specialization includes - Infrastructure Management, Application Migrations and technical coordination.
+
+I am very well versed and passionate about new technologies such as
+
+Cloud like VMWare, AWS, Azure
+Application Server Hosting like WAS 8.5, WAS BPM, PCF???
+Middleware Technologies like WebsphereMQ, RabbitMQ, Mule Server, and
+Database technoloiges like PostgraceSQL, IBM DB2, IBM Z/OS
+CI/CD tools such as Git, Jenkins, Ansible, Docker, etc.
+
+I am also a very patient and hard working person, always willing to step up and take up any challenges and help team members those in need.
+
+Coming to my current employment - I am currently employed with "Sriven" as a "Infrastructure Analyst", working for one of our client "ClientName".
+
+Before this I was working with TEK Systems for State Farm as a Infrastructure Analyst, responsible for technical coordination, and end to end setup/support of test & production environments.
+
+While i like my current job - I am really excited about this opportunity as it involves working with various new technologies, which provides me an opportunity grow myself and also work for a great company like TEKSystems and State Farm.
+
+Closing:
+Thank you all for providing the opportunity, I would be very happy to work again for TEK Systems and State Farm as Bloomington is like my home and really excited about challenges this opportunity will bring.
