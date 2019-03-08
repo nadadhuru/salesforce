@@ -1,0 +1,23 @@
+Sure - Currently I am working as a Salesforce Developer at TFC Bank, Minnesota.
+
+In my current project - I am responsible for creating Ligtining applications and Lightining Components to provide better and more interactive user interface to end-user.
+
+I also have experience in developing Visualforce Pages, Creating Apex Classes, Apex Triggers, and Apex Controllers based on requirements.
+
+Experience with developing data models within Salesforce such as Master-Detail relationship, Lookup, Junction objects.
+
+Also I am fluent in Salesforce Query and Search Language (SoQL and SoSL).
+
+I have experience in integrating the Salesforce and external systems using SOAP/REST APIs and testing the webservices using "".
+
+Understanding of Salesforce Governor limits, limit monitoring, and best-practices for limit-informed development.
+
+Experience with Salesforce administration.
+    Developing Profile and Role hierarchies with Object and Field level security in mind.
+    Developing Permission Sets
+
+Working with Admin for scheduling deployment.
+
+
+https://developer.salesforce.com/blogs/engineering/2015/05/developer-practices-checklist.html
+https://www.masonfrank.com/49903/salesforce-lightning-developer
