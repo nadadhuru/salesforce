@@ -1,0 +1,27 @@
+Day-1:
+
+		Cloud Computing
+		IaaS - Salesforce DB
+		PaaS - Force.com
+		SaaS - Salesforce.com software
+
+Day-2:
+		Objects and its types
+		Standard Objects and its examples
+		Custom Objects and its examples
+		What are Standard and Custom Objects in your project you used & created?
+		How to view details of a custom object?
+		Find out Interview Questions on Objects
+		How to translate a business requirement into Objects?
+		
+		Standard Vs Custom Fields
+		Explain what standard & custom fields you used/created in your project
+		
+		How to establish relationship in Salesforce
+		Types of relationship
+		Differences of relationship
+		Interview Questions on Master-detail relationship b/w parent and child objects/records
+		
+Day-3:
+		
+	

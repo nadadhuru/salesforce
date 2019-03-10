@@ -1,0 +1,72 @@
+Integration:-
+   
+Salesforce provides/supports three types of integration
+1)Rest API
+2)Soap API
+3)Http Callout
+
+What is An API?
+
+API stands for application programming interface in which it communicates with one app to the other.
+Salesforce can integrate with third party application and can communicate data with api. 
+
+
+1.What is a Rest API/Restful API?
+		-Stands for Representational State transfer.
+		-A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.(Ie: POST creates a record,Patch updates a record,GET retrieves the Record)
+		-You can expose our Apex class and methods so that external applications can access your code and your application through the REST architecture. 
+		-This is done by defining your Apex class with the "@RestResource" annotation to expose it as a REST resource.
+		Six Annotations that use in apex class are
+		@RestResource(urlMapping='/yourUrl')
+		@HttpDelete
+		@HttpGet
+		@HttpPatch
+		@HttpPost
+		@Httpput
+
+1.@RestResource(urlMapping='/yourUrl'):-
+		-To use this annotation, Apex class must be defined as global.
+		-url mapping is case sensitive	
+2.@HttpDelete:-
+		-The @HttpDelete annotation is used at the method level .
+		-This method is called when an HTTP DELETE request is sent, and deletes the specified resource.
+		-To use this annotation, your Apex method must be defined as global static.
+3.@HttpGet:-
+		-The @HttpDelete annotation is used at the method level .
+		-To use this annotation, your Apex method must be defined as global static.
+		- This method is called when an HTTP GET request is sent, and returns the specified resource.
+		-Methods annotated with @HttpGet are also called if the HTTP request uses the HEAD request method.
+4.@HttpPatch:-
+		-The @HttpDelete annotation is used at the method level .
+		-To use this annotation, your Apex method must be defined as global static.
+		-This method is called when an HTTP PATCH request is sent, and updates the specified resource.
+5.@HttpPost:-
+
+		-The @HttpDelete annotation is used at the method level .
+		-To use this annotation, your Apex method must be defined as global static.
+        -This method is called when an HTTP POST request is sent, and creates a new resource.
+6.HttpPut :-
+		-This method is called when an HTTP PUT request is sent, and creates or updates the specified resource.
+		-The @HttpDelete annotation is used at the method level 
+		-To use this annotation, your Apex method must be defined as global static
+Advantages/disasvantages:-
+
+		-It is used for light-weight application
+		-Is is comparitively less secure(when security is less concern)
+		-It accepts both xml (Extensible markup language)and Json(JavaScript object annotation)
+	note:
+
+-	Ex:-the same class can't have two methods annotated with @HttpGet.
+Hands-on Ex:-
+we can retrieve the folders/data from salesforce  in workbench using Rest api,and we can insert records in to salesforce from workbench.
+-the default format is json
+Json:Defines as a key value pair
+{
+"name":"salesforce org",
+"company":Salesforce"
+}
+Xml :its similar to html. opening tag must have an ending tag
+<request>
+<name>salesforce org</name>
+<company>Salesforce</company>
+</request>

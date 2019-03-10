@@ -1,0 +1,20 @@
+Topic:		
+
+What:
+	A trigger 
+
+When to use:		
+
+
+How to use:
+
+
+Limitations/Disadvantages:
+
+
+Advantages/Benefits:
+You can use Triggers to include morethan one record. Apex Triggers are optimized to operate in bulk. So as a developer best practice is to write a Trigger that supports bulk operation.
+
+
+
+Example:

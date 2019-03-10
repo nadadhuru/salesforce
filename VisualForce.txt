@@ -1,0 +1,155 @@
+1)How to enable the Development Mode?
+
+If we want to work with the VF pages first we have to enable the development mode else its going to show error as VF page doesnt exist
+
+Ans:-Username=>mysettings=>Personal=>Advanced User Settings=>Edit=>Development Mode
+
+2)In how many ways can we build VF pages?
+
+Ans:-We can build VF pages in four ways
+
+      1.Standard Navigation
+
+      2.URL
+
+      3.Developer Console
+
+      4.Eclipse/Force.comIDE
+
+Standard Navigation : 
+
+   Setup=>Build=>Develop=>Pages=>Newpage
+
+   Url Format :
+
+   https://serverinstance.salesforce.com/apex/pagename
+
+   if page is existing it will open otherwise it will ask you to create
+
+  Developer Console :
+ 
+   UserName=>Developer console=>File=>New=>VF page
+
+  Eclipse:
+
+   1.need to install java in the system
+   2.Install the java
+   3.Set the environment variables for java
+
+  google how to install force.com ide installation
+
+  VisualForce Page:(Sample page in org)
+
+   Every VF page we are creating that should be strict xml format
+  
+   VF page consists of 
+   1. VF Components and
+    2.WebScript components
+
+
+    Anything Represents in this <>tag is called components
+
+   Component can be any
+    html or VFComponents ,
+
+   To identify the differences vF Components starts with <apex:Componentname>
+
+
+Scripting components can be any
+html,java script,Angular js,ajax,jquery etc
+
+
+1.Every component in the VF page should be in Strict XMl format
+i.e..,every open tag have a closing tag
+ex:<one></one>,<page></page>
+   <one/>
+
+2.Every VF page Should start with <apex:page> component
+
+
+VISual force pages:
+
+1.<apex:sectionHeader>
+ 
+            This will create a header in the page
+
+the attributes are:1)Title
+                   2)Subtitle
+                   3)Description
+                   4)HelpUrl
+                   5)Rendered
+                   6)PrintUrl
+
+Ex: <apex:sectionHeader title="New page" subtitle="sub page" description="hi this is section header" help="https://www.facebook.com" />
+
+When we want to display data in VF page data should be represented in  expression format
+
+{! expressoin}//whatever the value that is generated from the expression that is displayed in the page
+
+Ex:{!10)==10,{!10+20}==30,{!ISNULL(10)}==false
+
+
+Global Data:the data which remains same through out the application once the user has loged in that data we call it as global data 
+
+Salesforce have some predefined global variables,all the global vars are predefined by dollar(search google salesforce global variables)
+
+if you want to refer to the global data we have to give it in the form of
+syntax:{!$objectName.FieldName}
+Ex:{!$User.Name},{!$Profile.Name}
+
+==>Passing the data from url
+
+https://ap1.salesforce.com/apex/pagename?parameter1=value1
+
+When we want to pass more than one parameter ,we have to seperate the parameters using '&'
+
+
+https://ap1.salesforce.com/apex/pagename?parameter1=value1 & Parameter2 = Value2
+
+   ==>how to read the paramaters from currentpage url
+
+$currentpage:is a global object which is used to read the parameters from the current page
+
+syntax:{! $currentpage.parameters.parametersName}i.e{!$currentpage.parameters.name}
+ 
+Standatd controller:if you want to refer the data from the object into VF page  then define that obj as Standard Controller
+
+Ex:<apex:page StandardController="Account">
+
+how to read the data from the object?
+
+{!objectname.fieldname}
+
+When we want to refer to a particular record we need to pass that record id as a aparameter in the url
+
+Ex:https://ap1.salesforce.com/apex/pagename/?id=recordid
+
+In the VF page data from the object is retreived from the given record in the url
+
+
+que)What is the difference between 15 digit id and 18 digit id in url?
+
+ans)When we create record in the object salesforce will create 18 digit unique to recognise it
+
+this is a case insensitive
+Same 18digit is represented as 15 digit id as case sensitive
+
+Ex:001-1U00000-BGN16 in this 15/18 digit first 3 digit indicates object and last 5 digits indicates record
+
+Q) if the user doesnt have permision of afield can he see that field on vf page?
+
+A)Data on the VF page runs in the User Context(the security model like OWD,Field Level Security,all these are taken into account before we display the data on thepage)
+
+ output components:-
+
+
+1)<apex:outputlabel>
+
+2)<apex:outputtext>
+
+3)<apex:outputfield> 
+
+<apex:inlineEditSupport>===>this component is used to edit the outfield by clicking on it                                                           o
+
+   
+
